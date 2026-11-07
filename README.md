@@ -1,16 +1,22 @@
-## Hi there 👋
+### Virgile de La Rochefoucauld
+AI research engineer — planning, multi-robot systems, verifiable agents.
+PhD (LAAS-CNRS × Osaka University). IROS 2024.
 
-<!--
-**ViDLR/ViDLR** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**What ties my work together:** agents whose claims are checked, not trusted —
+by tests, by solvers, by temporal logic, by a power meter.
 
-Here are some ideas to get you started:
+#### Verified planning
+- [symbolic-mission-planner](…) — LLM front-end, Prolog rule checking, CP-SAT scheduling, independent re-verification
+- [odd-guardian](…) — AV safety requirements as STL, falsified in simulation
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+#### Reliable agents
+- [ask-before-build](…) → [donewhen](…) — scope before acting, prove before claiming done
+- [frugal-master-agent](…) — on-device agent, Pareto front over success / energy / latency
+
+#### Robotics tooling
+- [robocomm-graph](…) — static comms graph for ROS 2 / Zenoh / ZeroMQ / MQTT / gRPC
+
+#### Research
+- *Solving Multi-Robot Task Allocation and Planning in Trans-media Scenarios* — IROS 2024 · [paper](…) · [code](…/Ros2PLAN_ws)
+
+[Portfolio](https://vidlr.github.io) · [Blog](…) · [LinkedIn](…) · virgile.dlr@protonmail.com
